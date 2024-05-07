@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Tailwindcss link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Boxicons Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>obrigado-lacasa [01] – La Casa Digital</title>
+  </head>
+  <body>
+    <main>
+      <!------------------------------ header ------------------------------>
+      <section
+        class="w-full flex justify-center bg-red-600 text-white font-[700]"
+      >
+        <div>
+          <h1 class="text-[30px] md:text-[50px] tracking-tighter mx-5 my-10">
+            <span class="text-[40px] md:text-[60px]">🚨</span> ALERTA!
+            <span class="text-[40px] md:text-[60px]">🚨</span>
+          </h1>
+        </div>
+      </section>
+      <!-- -------------------------------------------------- -->
+      <section style="background-image: url(./assets/img/bg-obg-lcd_02.webp)">
+        <div class="flex items-center flex-col mx-[15%] md:mx-[30%] py-[10rem]">
+          <div class="">
+            <img
+              src="./assets/img/Asset-3_LA-CASA-3-1024x597.png.webp"
+              alt="logo"
+              class="w-[13rem]"
+            />
+          </div>
+          <div class="text-center">
+            <div>
+              <h1
+                class="text-[#161616] text-[24px] md:text-[27px] font-[800] tracking-tighter"
+              >
+                Ainda falta um passo para você concluir 100% o seu cadastro para
+                o LA CASA DIGITAL 3
+              </h1>
+            </div>
+            <div class="mt-5">
+              <div class="w-full bg-white rounded-md">
+                <div
+                  class="bg-[#ff8f25] text-[17px] text-black text-right py-[.5rem] pr-[1rem] leading-none rounded-md load"
+                  style="width: 85%"
+                >
+                  85%
+                </div>
+              </div>
+            </div>
+            <p class="text-[18px] mt-5">
+              Cai pra dentro do botão abaixo e entre em nosso grupo exclusivo
+              para ter acesso a materiais extras, avisos e link das aulas
+            </p>
+            <button
+              class="waving text-white mt-5 py-3 px-10 md:py-5 md:px-16 uppercase font-[600] rounded-md bg-gradient-to-b from-[#61CE70] to-[#3A9346]"
+            >
+              <div class="flex items-center gap-2">
+                <i class="bx bxl-whatsapp"></i>
+                <p>entrar no grupo</p>
+              </div>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!------------------------------ footer ------------------------------>
+      <section>
+        <footer class="bg-[#1c2021] text-white">
+          <div class="py-7 px-7 text-[20px]">
+            <p class="text-center">
+              Pablo Marçal 2024 | Todos os Direitos Reservados
+            </p>
+          </div>
+        </footer>
+      </section>
+    </main>
+    <style>
+      .waving {
+        animation: waving 1.5s infinite;
+        box-shadow: 0px 0px 20px -5px #6a2dff;
+      }
+      @keyframes waving {
+        70% {
+          box-shadow: 0 0 0 30px transparent;
+        }
+
+        100% {
+          box-shadow: 0 0 0 0 transparent;
+        }
+      }
+
+      .load {
+        animation: load 1.5s linear;
+      }
+      @keyframes load {
+        0% {
+          width: 0%;
+        }
+
+        100% {
+          width: 85%;
+        }
+      }
+    </style>
+  </body>
+</html>
